@@ -1,0 +1,106 @@
+/* 
+ * @Name: Assignment 1 - Styling 
+ * @Author: Tyler Le
+ * @Course Code: SODV1201
+ * @Class: Software Development Diploma program.
+ * @Description: Modern and clean styling for the assignment pages.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+nav {
+    background: #1f1f1f;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+nav a {
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #00d4ff;
+}
+
+.container {
+    flex: 1; 
+    background: #1e1e1e;
+    padding: 30px;
+    width: 80%;
+    max-width: 700px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+}
+
+button {
+    background: #00d4ff;
+    color: #121212;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #0088a8;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #444;
+    background: #222;
+    color: #fff;
+    border-radius: 5px;
+}
+
+footer {
+    background: #1f1f1f;
+    color: #bbb;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: auto;
+}
+
+main {
+    padding: 20px;
+    text-align: center; /* Ensures inline elements like <img> are centered */
+}
+
+#profile-pic {
+    display: block;  /* Makes the image a block element */
+    margin: 0 auto;  /* Centers the image horizontally */
+}
+
+/* Center both image and text */
+.profile-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+}

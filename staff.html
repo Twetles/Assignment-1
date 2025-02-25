@@ -1,0 +1,44 @@
+<!--
+    @Name: Assignement1
+    @Course Code: SODV1201
+    @Class: Software Development Diploma program.
+    @Author: Tyler Le
+    @Sorts staff members by name or salary.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Staff List</h1>
+    <nav>
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="grade.html">Grade Converter</a>
+            <a href="staff.html">Staff List</a>
+            <a href="weather.html">Weather</a>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <button onclick="sortStaff('name')">Sort by Name</button>
+    <button onclick="sortStaff('salary')">Sort by Salary</button>
+    <ul id="staff-list"></ul>
+</main>
+
+<footer>
+    <p>&copy; <span id="year"></span> Tyler Le. All rights reserved.</p>
+</footer>
+
+<script src="scriptss.js"></script>
+</body>
+</html>

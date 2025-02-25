@@ -1,0 +1,50 @@
+<!-- 
+    @Name: Assignment 1 - Introduction to Web Programming
+    @Course Code: SODV1201
+    @Class: Software Development Diploma program
+    @Author: Tyler Tuan Le
+    @Date: 02/24/2025
+    @Description: Weather conversion page (Fahrenheit to Celsius, Celsius to Kelvin).
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Weather Conversion</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="grade.html">Grade Converter</a>
+            <a href="staff.html">Staff List</a>
+            <a href="weather.html">Weather</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Convert Temperature</h2>
+        <label for="temperature">Enter Temperature:</label>
+        <input type="text" id="temperature" placeholder="Enter value">
+        
+        <button id="convertToCelsius">Convert to Celsius</button>
+        <button id="convertToKelvin">Convert to Kelvin</button>
+
+        <p id="result"></p>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Tyler Le. All rights reserved.</p>
+    </footer>
+
+    <script src="scriptsss.js"></script>
+    <script>
+        $("#year").text(new Date().getFullYear());
+    </script>
+</body>
+</html>

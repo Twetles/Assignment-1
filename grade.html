@@ -1,0 +1,43 @@
+<!--
+    @name: Assignment 1 - Mark to Grade Converter
+    @Course Code: SODV1201
+    @class: Software Development Diploma program
+    @author: Tyler Le
+    @description: Converts student marks to grades with validation.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Mark to Grade Converter</h1>
+    <nav>
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="grade.html">Grade Converter</a>
+            <a href="staff.html">Staff List</a>
+            <a href="weather.html">Weather</a>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <input type="text" id="mark-input" placeholder="Enter your mark">
+    <button onclick="convertMark()">Convert</button>
+    <p id="grade-result"></p>
+</main>
+
+<footer>
+    <p>&copy; <span id="year"></span> 2025 Tyler Le. All rights reserved.</p>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
